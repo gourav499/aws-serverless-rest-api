@@ -1,0 +1,4 @@
+{
+  "description": "The UserRequestAPI manages user data retrieval and manipulation. It supports operations to retrieve user details based on unique identifiers.",
+  "baseURL": "enter your API'S URL"
+}
