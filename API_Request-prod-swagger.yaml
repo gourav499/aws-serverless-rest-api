@@ -1,0 +1,25 @@
+---
+swagger: "2.0"
+info:
+  version: "2026-01-14T17:35:27Z"
+  title: "API_Request"
+host: "s7gzfuxeq6.execute-api.ap-south-1.amazonaws.com"
+basePath: "/prod"
+schemes:
+- "https"
+paths:
+  /users:
+    get:
+      produces:
+      - "application/json"
+      responses:
+        "200":
+          description: "200 response"
+          schema:
+            $ref: "#/definitions/Empty"
+definitions:
+  Empty:
+    type: "object"
+    title: "Empty Schema"
+x-amazon-apigateway-security-policy: "SecurityPolicy_TLS13_1_3_2025_09"
+x-amazon-apigateway-endpoint-access-mode: "BASIC"
